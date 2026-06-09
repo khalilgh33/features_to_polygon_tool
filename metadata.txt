@@ -1,0 +1,25 @@
+[general]
+name=Feature To Polygon
+qgisMinimumVersion=3.16
+description=Generates polygons from all enclosed areas formed by the combination of polygon boundaries and line features — equivalent to ArcGIS Feature to Polygon tool.
+version=1.0.0
+author=Khalil Valizadeh
+email=your@email.com
+
+about=This plugin takes a polygon layer and a line layer, merges their boundaries, and generates new polygon features from every enclosed area formed by their combination. Useful for subdividing regions by roads, rivers, transects, or any linear features.
+
+tracker=https://github.com/yourusername/feature-to-polygon/issues
+repository=https://github.com/yourusername/feature-to-polygon
+
+changelog=
+    1.0.0 - Initial release
+
+tags=polygon, line, split, feature to polygon, geometry, geoprocessing
+
+homepage=https://github.com/yourusername/feature-to-polygon
+category=Vector
+icon=icons/icon.png
+experimental=False
+deprecated=False
+server=False
+hasProcessingProvider=True
